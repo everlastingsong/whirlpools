@@ -30,4 +30,4 @@ jobs:
           solana-version: '1.10.32' # not required
           run-mode: '-analyzeAll' # not required
           cargo-com: '.' # not required
-          program-path: 'programs/whirlpools' # not required
+          program-path: 'programs/whirlpool' # not required
