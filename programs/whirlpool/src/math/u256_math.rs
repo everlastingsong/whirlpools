@@ -371,6 +371,7 @@ impl U256Muldiv {
         divisor = divisor.shift_left(s);
 
         for j in (0..num_dividend_words - num_divisor_words + 1).rev() {
+            //#[soteria(ignore)]
             let result = div_loop(
                 j,
                 num_divisor_words,
